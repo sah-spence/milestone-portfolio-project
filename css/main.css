@@ -78,14 +78,11 @@ footer {
 
 nav {
     float: right;
-}
-
-nav li {
     display: inline-block;
     padding-top: 10px;
 }
 
-nav li a {
+nav a {
     color: #0c0f0a;
     font-family: "Manrope", sans-serif;
     font-size: 20px;
