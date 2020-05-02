@@ -1,0 +1,246 @@
+/****** BASE STYLES *******/
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    color:#0c0f0a;
+}
+
+.menu {
+    height: 35px;
+}
+
+header {
+    height:650px;
+}
+
+#portfolio {
+    height:800px;
+}
+
+#about {
+    height:490px;
+}
+
+#skillset {
+    height: 500px;
+}
+
+#contact {
+    height:450px;
+}
+
+footer {
+    height: 50px;
+}
+
+#about, #contact, #portfolio, #skillset h3 {
+    color: #0c0f0a;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#contact a:visited, .icons a:visited, .menu a:visited {
+    color: #0c0f0a;
+  }
+  
+#contact a:hover, .icons a:hover, .menu a:hover {
+      color: #fca047;
+    }
+
+/******* GRID *******/
+
+.full-width {
+    width:1200px;
+    margin: auto;
+}
+.half-width {
+    width:600px;
+    float:left;
+}
+.third-width {
+    width:400px;
+    float:left;
+}
+
+/****** MENU ******/
+
+.menu h2 {
+    color: #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+nav li a {
+    color: #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+
+/****** HEADER ******/
+
+header {
+    
+    background-image: url('../img/hero-background-opt-2.png');
+    background-size: cover;
+    padding-top: 75px;
+}
+
+header h1 {
+    color: #fca047;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 90px;
+}
+
+
+
+/****** PORTFOLIO ******/
+
+#portfolio h4 {
+    color: #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 350px;
+}
+
+#portfolio .third-width {
+    margin-top: 60px;
+}
+
+#portfolio img {
+    margin: auto;
+    width: 350px;
+}
+
+#portfolio p {
+    color: #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    width: 350px;
+}
+
+/****** ABOUT ******/
+
+#about {
+    background-image: url('../img/about-photo.png');
+    background-repeat: no-repeat;
+}
+
+#about p {
+    color: #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+}
+
+/****** SKILL SET ******/
+
+#skillset ul {
+    list-style: none;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 605px;
+}
+
+#skillset ul li {
+     display: inline-block;
+}
+
+#skillset ul img {
+    padding-right: 48px;
+    width: 80px;
+}
+
+#skillset ul li #plus {
+    padding-bottom: 25px;
+    width: 30px;
+}
+
+#skillset p {
+    color: #0c0f0a;
+    border-top: 2px dashed #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    width: 605px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+    background-color: #f4d6cc;
+}
+
+#contact a {
+    color: #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#contact img {
+    padding-right: 15px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+    width: 40px;
+}
+
+
+
+/****** FOOTER ******/
+
+footer {
+    background-color: #f4d6cc;
+}
+
+footer p, .icons {
+    color: #0c0f0a;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
