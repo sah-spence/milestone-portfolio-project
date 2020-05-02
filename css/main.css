@@ -142,6 +142,7 @@ header h1 {
 
 #about {
     background-image: url('../img/about-photo.png');
+    background-position: center;
     background-repeat: no-repeat;
 }
 
