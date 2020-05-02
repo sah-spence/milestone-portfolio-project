@@ -127,6 +127,7 @@ header h1 {
 #portfolio img {
     margin: auto;
     width: 350px;
+    border: 1pt solid #d8e2dc;
 }
 
 #portfolio p {
