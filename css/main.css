@@ -97,6 +97,7 @@ nav a {
 header {
     
     background-image: url('../img/hero-background-opt-2.png');
+    background-position: center center;
     background-size: cover;
     padding-top: 75px;
 }
