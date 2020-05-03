@@ -117,6 +117,7 @@ header h1 {
     font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-weight: 600;
+    padding-left: 25px;
     text-align: center;
     width: 350px;
 }
@@ -136,6 +137,7 @@ header h1 {
     font-family: "Manrope", sans-serif;
     font-size: 17px;
     font-weight: 400;
+    padding-left: 25px;
     text-align: center;
     width: 350px;
 }
